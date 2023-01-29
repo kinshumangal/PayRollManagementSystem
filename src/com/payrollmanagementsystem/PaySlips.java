@@ -11,15 +11,19 @@ public class PaySlips extends Employee{
 	public String getMonth() {
 		return month;
 	}
+	
 	public int getEmpId() {
 		return empId;
 	}
+
 	public float getMessBill() {
 		return messBill;
 	}
+
 	public Date getDate() {
 		return date;
 	}
+
 	public void setMonth(String month) {
 		this.month = month;
 	}
